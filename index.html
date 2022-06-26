@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brainstorm Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100;200;300;400;500;600;700;800&family=Eczar:wght@400;500;600;700;800&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li class="about">About</li>
+        <li>Team</li>
+        <li>Projects</li>
+        <li>Tariffs</li>
+        <li>Contacts</li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <div class="description">
+        <h1>Brainstorm</h1>
+        <h2>Generating ideas in the right space with the right people</h2>
+        <p>Join us for invaluable experience</p>
+        <button>JOIN A TEAM</button>
+      </div>
+      <img src="/images/team_work.jpg" width="700" alt="" />
+    </div>
+    <footer>
+      ✌️ This website was coded by Judyta Kwiatkowska, and is
+      <a
+        href="https://github.com/JudytaKwiatkowska/Landing-page"
+        target="_blank"
+        >open-sourced</a
+      >
+      and hosted on Netlify. <br />
+      Illustrations by
+      <a
+        href="https://pl.freepik.com/search?author=8005050&authorSlug=mamewmy&format=author&page=7&selection=1&type=vector"
+        target="_blank"
+        >vectorjuice</a
+      >
+      available on <a href="https://freepik.com" target="_blank">freepik</a>
+    </footer>
+    <script>
+      function newsletter() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email adress?");
+
+        alert("Thank you " + name + "! 😁 We'll be in touch!");
+      }
+      let newsletterBotton = document.querySelector("button");
+      newsletterBotton.addEventListener("click", newsletter);
+    </script>
+  </body>
+</html>
